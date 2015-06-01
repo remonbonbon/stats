@@ -1,0 +1,26 @@
+[v-cloak] {
+  visibility: hidden;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+  shape-rendering: geometricPrecision;
+}
+.bar {
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.bar.hddstate {
+  stroke: #ccc;
+  fill: #ccc;
+}
+.bar.recording {
+  stroke: #999;
+  fill: #999;
+}
